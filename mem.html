@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1000, user-scalable=no, minimal-ui" />
+
+    <title>MEMORY GAME!</title>
+
+    <link rel="stylesheet" type="text/css" href="https://res.cloudinary.com/good-old-pbs-cdn/raw/upload/v1623035124/2015/pbsk_resources/wildkratts/games/animal-match/Memory/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="https://legacy-static.pbskids.org/wildkrattswebsite/games/animal-match/Memory/css/memory.css">
+
+    <script type="text/javascript" src="https://legacy-static.pbskids.org/wildkrattswebsite/games/animal-match/Memory/jquery.js"></script>
+    <script type="text/javascript" src="https://legacy-static.pbskids.org/wildkrattswebsite/games/animal-match/Memory/jquery.cookies.2.1.0.min.js"></script>
+	
+	<!-- Block Crypted -->
+    <script type="text/javascript" src="https://res.cloudinary.com/good-old-pbs-cdn/raw/upload/v1623034891/2015/pbsk_resources/wildkratts/games/animal-match/Memory/scripts.js"></script>
+    <!-- Block CryptedEnd -->
+	
+    <!-- Block Uncrypted 
+	<script type="text/javascript" src="Memory/timer.js"></script>
+	<script type="text/javascript" src="Memory/UIElements.js"></script>
+	<script type="text/javascript" src="Memory/audio.js"></script>
+	<script type="text/javascript" src="Memory/keys.js"></script>
+	<script type="text/javascript" src="Memory/animation.js"></script>
+	<script type="text/javascript" src="Memory/browser.js"></script>
+	<script type="text/javascript" src="Memory/startScene.js"></script>
+	<script type="text/javascript" src="Memory/setupScene.js"></script>
+	<script type="text/javascript" src="Memory/playScene.js"></script>
+	<script type="text/javascript" src="Memory/sceneManager.js"></script>
+	<script type="text/javascript" src="Memory/memory.js"></script>
+	<!-- Block Uncrypted End -->
+  
+</head>
+<body>
+    <div id="gameView">
+        <div id="GameCenter">
+            <canvas id="GameCanvas" width="988" height="566"></canvas>
+
+            <svg id="svgCanvas" width="988" height="566" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+                <g id="start_screen_svg" style="display:none;" transform="translate(0,0)">
+
+                </g>
+
+                <g id="setup_screen_svg" style="display:none;" transform="translate(0,0)">
+
+                </g>
+
+                <g id="play_screen_svg" style="display:none;" transform="translate(0,0)">
+
+                </g>
+
+                <g id="help_screen_svg" style="display:none;" transform="translate(0,0)">
+                    <image id="helpScreen" x="0" y="0" width="988" height="566" xlink:href="https://legacy-static.pbskids.org/wildkrattswebsite/games/animal-match/Images/Screens/Info_Pop_Up.png"></image>
+                    <g id="help_close">
+                        <rect x="870" y="32" width="60" height="60" fill="rgba(0,0,0,0)"></rect>
+                    </g>
+                </g>
+            </svg>
+
+        </div>
+    </div>
+    
+    <div id="GameImages" style="display:none;">
+    </div>
+
+    <div id="GameSounds" style="display:none;">
+    </div>
+
+</body>
+</html>
